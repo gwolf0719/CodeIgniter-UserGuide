@@ -191,7 +191,7 @@ folder containing the image files must have write permissions.</p>
 <td class="td"><strong>source_image</strong></td>
 <td class="td">None</td>
 <td class="td">None</td>
-<td class="td">Sets the source image name/path.  The path must be a relative or absolute server path，not a URL.</td>
+<td class="td">設定要被處理的圖檔來源路徑，必須要是在主機上的路徑而不是一個 URL</td>
 <td class="td">R，C，S，W</td>
 </tr>
 
@@ -208,7 +208,7 @@ folder containing the image files must have write permissions.</p>
 <td class="td"><strong>quality</strong></td>
 <td class="td">90%</td>
 <td class="td">1 - 100%</td>
-<td class="td">Sets the quality of the image. The higher the quality the larger the file size.</td>
+<td class="td">設定圖檔壓縮品質數字越大則圖檔越大品質越好</td>
 <td class="td">R，C，X，W</td>
 </tr>
 
@@ -217,7 +217,7 @@ folder containing the image files must have write permissions.</p>
 <td class="td"><strong>new_image</strong></td>
 <td class="td">None</td>
 <td class="td">None</td>
-<td class="td">Sets the destination image name/path.  You'll use this preference when creating an image copy. The path must be a relative or absolute server path，not a URL.</td>
+<td class="td">圖檔處理後的存放路徑，必須要是在主機上的路徑而不是一個 URL</td>
 <td class="td">R，C，X，W</td>
 </tr>
 
@@ -249,7 +249,7 @@ folder containing the image files must have write permissions.</p>
 <td class="td"><strong>thumb_marker</strong></td>
 <td class="td">_thumb</td>
 <td class="td">None</td>
-<td class="td">Specifies the thumbnail indicator.  It will be inserted just before the file extension，so mypic.jpg would become mypic_thumb.jpg</td>
+<td class="td">設定影像處理後在檔名後面標示，例如 mypic.jpg 將會被變成 mypic_thumb.jpg</td>
 <td class="td">R</td>
 </tr>
 
@@ -257,7 +257,7 @@ folder containing the image files must have write permissions.</p>
 <td class="td"><strong>maintain_ratio</strong></td>
 <td class="td">TRUE</td>
 <td class="td">TRUE/FALSE (boolean)</td>
-<td class="td">Specifies whether to maintain the original aspect ratio when resizing or use hard values.</td>
+<td class="td">設定強制等比例</td>
 <td class="td">R，C</td>
 </tr>
 
@@ -285,14 +285,14 @@ folder containing the image files must have write permissions.</p>
 <td class="td"><strong>x_axis</strong></td>
 <td class="td">None</td>
 <td class="td">None</td>
-<td class="td">Sets the X coordinate in pixels for image cropping. For example，a setting of 30 will crop an image 30 pixels from the left.</td>
+<td class="td">設定裁切時起始的 X 軸偏移量，由最左邊開始計算</td>
 <td class="td">C</td>
 </tr>
 <tr>
 <td class="td"><strong>y_axis</strong></td>
 <td class="td">None</td>
 <td class="td">None</td>
-<td class="td">Sets the Y coordinate in pixels for image cropping. For example，a setting of 30 will crop an image 30 pixels from the top.</td>
+<td class="td">設定裁切時起始的 Y 軸偏移量，由最上方開始計算</td>
 <td class="td">C</td>
 </tr>
 
